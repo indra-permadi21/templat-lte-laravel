@@ -13,37 +13,129 @@
             <!-- Add icons to the links using the .nav-icon class
 with font-awesome or any other icon font library -->
             <li class="nav-item">
+                <a href="../widgets.html" class="nav-link">
+                    <i class="nav-icon fas fa-th"></i>
+                    <p>
+                        Dashboard
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                        Dashboard
+                        Transaksi
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="../../index.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Dashboard v1</p>
+                            <p>Permintaan ( PR )</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Penerimaan ( GR )</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Pembelian ( PO )</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Pengeluaran Bahan Baku</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Tagihan</p>
                         </a>
                     </li>
                 </ul>
             </li>
             <li class="nav-item">
-                <a href="../widgets.html" class="nav-link">
-                    <i class="nav-icon fas fa-th"></i>
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                        Author
+                        Master
+                        <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Divisi</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Staff</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('uom.index') }}" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Satuan</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Bahan Baku</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Supplier</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class="nav-item">
-                <a href="../widgets.html" class="nav-link">
-                    <i class="nav-icon fas fa-th"></i>
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                        Book
+                        Laporan
+                        <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Laporan Permintaan (PR)</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Laporan Pembelian (PO)</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Laporan Penerimaan (GR)</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Laporan Pengeluaran</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </nav>

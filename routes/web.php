@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\master\UomController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('blank');
 });
+
+
+Route::get('/master/uom', [UomController::class, 'index'])->name('uom.index');
+Route::post('/master/uom/store', [UomController::class, 'store'])->name('uom.store');
